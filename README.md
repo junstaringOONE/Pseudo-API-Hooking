@@ -1,9 +1,12 @@
 # Pseudo API Hooking
-###### • Hooking what the API calls (or at least tries to)
-###### • Note that this will not work for all API's (this project may be extended in the future to do so)
+
+• Hooking what the API calls (or at least tries to)
+
+• Note that this will not work for all API's (this project may be extended in the future to do so)
 
 ## What it does & how it works
-###### • It simply searches for a call/jmp to a function ptr, which many API calls result in
+
+• It simply searches for a call/jmp to a function ptr, which many API calls result in
 
 For example
 ```
