@@ -23,3 +23,7 @@ For example
 ```
 
 The hook will replace `__imp_TerminateThread` with the specified hook.
+
+The code in `main` will produce the following output:
+
+![Imgur Image](https://i.imgur.com/enplQIY.png)
