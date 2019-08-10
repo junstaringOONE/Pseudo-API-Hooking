@@ -52,7 +52,7 @@ bool ApplyWinAPIHook( PVOID pApiFunction, PVOID pHookFunction, PVOID *ppOriginal
 				//
 				// Resolve the relative address 
 				//
-				INT32 uiAddress = *reinterpret_cast< INT32 * >( &pApiFunctionStart[ i + 2 ] );
+				UINT32 uiAddress = *reinterpret_cast< UINT32 * >( &pApiFunctionStart[ i + 2 ] );
 			
 #ifdef DEBUG_MESSAGE
 				Debugf( "Relative address => 0x%X.\n", uiAddress );
